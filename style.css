@@ -1,0 +1,139 @@
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items:center ;
+    width: 300px;
+    gap:20px;
+    background-color: #f0eef1;
+    border-radius: 8px;
+    padding: 0px;
+    box-sizing: border-box;
+    margin:0
+}
+.input{
+    width: 85%;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: white;
+    border: none;
+}
+.button{
+    border:none;
+    font-family: "Poppins";
+    padding: 10px 15px;
+    margin-bottom: 10px;
+    background-color: #9fff9c;
+    border-radius: 8px;
+}
+#add_book{
+    text-align:center ;
+}
+#add_btn{
+    font-size: 1.5em;
+    padding: 10px;
+    border-radius: 10px;
+    border: solid;
+    background-color: white;
+    border-color: white;
+}
+
+#modal{
+    display: none;
+    position:fixed;
+    text-align: center;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height:100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(0, 0, 0, 0.5);
+}
+
+#add_btn{
+    font-size: 24px;
+    font-weight: 600;
+    padding:0;
+    margin-top: 50px;
+    background-color:#f0eef1 ;
+    border-color: #f0eef1;
+    cursor: pointer;
+    
+}
+
+body{
+    font-family: "Poppins", "sans-serif";
+    font-weight: 500;
+    background-color: #f0eef1;
+    margin:0;
+    word-wrap: break-word;
+    
+}
+header{
+    background-color: white;
+    padding: 1px ;
+    padding-bottom: 1px;
+}
+
+.bookgrids{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px,1fr));
+    gap:40px;
+    margin-top: 40px;
+    grid-auto-flow: column;
+}
+
+.book_card{
+    display: flex;
+    flex-direction: column;
+    align-items:center ;
+    justify-content: space-between;
+    width: 300px;
+    gap:0px;
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+    box-sizing: border-box;
+    margin:0;
+    
+    
+}
+
+.button-group{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width:100%;
+    
+    
+}
+.read_btn{
+    background-color: #ff9c9c;
+    padding: 10px 15px;
+    cursor: pointer;
+    
+    
+}
+.rm_btn{
+    cursor:pointer;
+}
+
+.main{
+    margin-top: 20px;
+    text-align: center;
+    font-family: "Poppins";
+    font-size: 18px;
+}
+.container{
+    padding: 20px;
+    margin:0;
+}
+p{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+
+}
+
